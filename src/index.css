@@ -1,0 +1,531 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: -16px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: rgba(220, 220, 220, 0.538); */
+    background-image: linear-gradient(to bottom, #051937, #3a2350, #712659, #a22e4f, #c34a36);
+}
+
+
+
+.Section_User_Input {
+    width: 100%;
+    height: 37rem;
+    background-image: url(https://i.giphy.com/media/tDJfaLVF0gHV90lxZj/giphy.webp);
+    background-size: 35%;
+}
+
+.pokedex_div {
+    width: 45%;
+    margin: 1% auto;
+    position: relative;
+    top: 5%;
+    left: 2%;
+}
+
+
+.info_trainer {
+    width: 45%;
+    margin: 5% 29.50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 20%;
+    padding: 1%;
+}
+
+.info_input {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 20px;
+    padding: 5% 0;
+    color: midnightblue;
+}
+
+
+.info_input button {
+    height: 3rem;
+    width: 4rem;
+    border-radius: 50%;
+    background: rgb(112, 226, 188);
+}
+
+.info_input button:hover {
+    cursor: pointer;
+    background: rgb(68, 135, 113);
+    color: #fff;
+
+}
+
+.info_input input {
+    height: 3rem;
+    border-radius: 30%;
+    margin-right: 3%;
+    color: midnightblue;
+
+}
+
+
+
+.color1 {
+    width: 100%;
+    height: 148px;
+    background: #DD1A1A;
+    position: relative;
+}
+
+.color2 {
+    background: #0C0C0C;
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    bottom: 0%;
+}
+
+
+.circle1 {
+    width: 10%;
+    height: 126px;
+    position: absolute;
+    background: #fff;
+    left: 47%;
+    top: 14%;
+    border-radius: 58%;
+    border: 10px solid black;
+}
+
+.circle2 {
+    width: 3%;
+    height: 42px;
+    position: absolute;
+    background: black;
+    left: 50.4%;
+    top: 39%;
+    border-radius: 58%;
+}
+
+
+
+
+
+
+
+
+
+
+.circle1_Pokedex {
+    width: 10%;
+    height: 126px;
+    position: absolute;
+    background: #fff;
+    left: 88%;
+    top: 40%;
+    border-radius: 58%;
+    border: 10px solid black;
+}
+
+.circle2_Pokedex {
+    width: 3%;
+    height: 42px;
+    position: absolute;
+    background: black;
+    left: 91.4%;
+    top: 65%;
+    border-radius: 58%;
+}
+
+
+
+.pokedex_logo_div {
+    width: 45%;
+    position: absolute;
+    left: 4%;
+    top: 17%;
+}
+
+.welcome_div {
+    width: 40%;
+    margin: 2% auto;
+}
+
+.welcome_div h3 {
+    font-size: 2rem;
+    color: #C34A36;
+}
+
+.welcome_div p {
+    font-size: 2rem;
+    color: #FCF7FF;
+}
+
+
+.buttoms_forms {
+    width: 90%;
+    height: 6rem;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    background: #7b7582;
+    padding: 1%;
+    border-radius: 10%;
+    background: #B0A8B9;
+}
+
+
+.input_div {
+    display: flex;
+    gap: 5%;
+}
+
+.input_div input {
+    height: 60%;
+    border-radius: 20%;
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 5%;
+}
+
+.input_div button {
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 7%;
+}
+
+.input_div button:hover {
+
+    cursor: pointer;
+    background-color: #D93F3F;
+    color: #fff;
+
+
+}
+
+
+.select_opt_div select {
+    height: 57%;
+    border-radius: 15%;
+    margin-top: 5%;
+}
+
+.select_opt_div select:hover {
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.cards_container {
+    width: 90%;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_pokemon {
+    width: 22%;
+    height: 30rem;
+    margin: 1% 1%;
+    /* background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%); */
+    background: #fff;
+    border: 12px solid #b7dcb3;
+    border-radius: 5%;
+    position: relative;
+
+}
+
+
+
+.card_pokemon:hover {
+
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.pokemonImg_div {
+    width: 60%;
+    height: 45%;
+    margin: auto;
+    padding: 3%;
+}
+
+
+
+.name_type_div {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.name_type_div span {
+
+    color: rgba(128, 128, 128, 0.903);
+
+}
+
+
+.pokemon_stats_div {
+    display: flex;
+    gap: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.126);
+    width: 70%;
+    margin: auto;
+
+}
+
+.stats_individual_div {
+    width: 14%;
+    height: 20%;
+    margin: 3% auto;
+}
+
+.stats_individual_div p {
+    color: rgba(128, 128, 128, 0.903);
+}
+
+/* .pokemon_stats_div p{
+    display: block;
+} */
+
+
+.stats_div {
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.359);
+    border-radius: 20%;
+}
+
+
+
+.paginated_container {
+    width: 60%;
+    display: flex;
+    gap: 1%;
+    margin: 2% auto;
+    flex-wrap: wrap;
+}
+
+
+.button_page {
+    width: 5%;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #D8F9DA;
+}
+
+.buttonNextPrev {
+    height: 3rem;
+    border-radius: 30%;
+    background-color: #D8F9DA;
+}
+
+
+
+
+.footer_logo {
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+
+
+.card_container_detail {
+    width: 70%;
+    margin: 5% auto;
+}
+
+
+.card_detail {
+    width: 100%;
+    background: linear-gradient(178.92deg, #ffffff 0.92%, #8e8e8e 47.96%, #eae5e5 99.08%);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3%;
+}
+
+
+
+
+
+.pokemonImg_div_detail {
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    margin: 1%;
+    background: linear-gradient(178.92deg, #ABDAC6 0.92%, #ABDAC6 47.96%, #000000 99.08%);
+    height: 15rem;
+    border-radius: 20%;
+}
+
+
+
+.pokemonInfo_div_detail {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div_ID {
+    width: 6%;
+    margin: auto;
+    height: 3rem;
+    text-align: center;
+    border-radius: 30%;
+    padding: 14px;
+    margin-top: 3%;
+    border: 1px solid black;
+}
+
+.div_namePokemon {
+    margin-top: 5%;
+}
+
+
+.div_namePokemon h1 {
+    font-size: 3rem;
+}
+
+
+.div_weightHeight {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 5% auto;
+}
+
+.div_WH {
+    width: 10rem;
+    height: 2rem;
+}
+
+
+.div_type_skills {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 5% auto;
+
+
+}
+
+.div_typeSkill_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.div_type_skill {
+    display: flex;
+    gap: 10%;
+}
+
+
+
+
+.card_movements_container {
+    width: 100%;
+    margin: 5% auto;
+}
+
+
+.card_movements {
+
+    width: 100%;
+    background: linear-gradient(178.92deg, #ffffff 0.92%, #8e8e8e 47.96%, #eae5e5 99.08%);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+
+    height: 30rem;
+    overflow: scroll;
+
+}
+
+
+.button_move {
+    width: 12%;
+    height: 2rem;
+    text-align: center;
+    padding: 1% 0;
+    border-radius: 33%;
+    background-image: linear-gradient(to right bottom, #ffffffa6, #ffffffa4, #ffffffcf, #ffffffcf, #ffffffcf);
+    color: black;
+    margin: 1%;
+}
+
+.generator_movents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.stats_graph_container {
+    width: 100%;
+}
+
+.graph_card h1 {
+    text-align: center;
+}
+
+
+.graph_div {
+    width: 80%;
+    margin: 3% auto;
+}
+
+
+
+.div_style_ts {
+    width: 12rem;
+    height: 3rem;
+    padding: 4% 0;
+    background: rgba(255, 251, 251, 0.581);
+    border-radius: 20%;
+}
+
+.div_title_movements {
+    margin: 0% auto;
+    width: 70%;
+    text-align: center;
+    height: 3rem;
+    padding: 1% 0;
+    background: rgba(255, 255, 255, 0.377);
+    border-radius: 0%;
+    margin-top: 5%;
+
+}
+
+
+.div_buttom_fixed button {
+    position: fixed;
+    left: 4%;
+    top: 90%;
+    width: 7%;
+    height: 3rem;
+    border-radius: 50%;
+}
